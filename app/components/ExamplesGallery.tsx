@@ -106,6 +106,8 @@ const ExamplesGallery = () => {
                 <Image 
                   src={example.thumbnail} 
                   alt={example.title}
+                  width={250}
+                  height={250}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 

@@ -113,6 +113,8 @@ const Testimonials = () => {
                 <Image
                   src={testimonial.author.avatar}
                   alt={testimonial.author.name}
+                  width={250}
+                  height={250}
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
