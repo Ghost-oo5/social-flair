@@ -34,7 +34,7 @@ AI-powered video creation platform designed for modern marketers. Create profess
    ```bash
    git clone https://github.com/ghost-oo5/social-flair.git
    cd social-flair
-````
+
 
 2. **Install dependencies**
 
