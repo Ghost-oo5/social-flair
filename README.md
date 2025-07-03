@@ -1,4 +1,4 @@
-````markdown
+
 # SocialFlair
 AI-powered video creation platform designed for modern marketers. Create professional UGC and commercial video ads in minutes, not weeks, with advanced AI technology.
 
