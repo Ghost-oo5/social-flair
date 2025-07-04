@@ -18,44 +18,49 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg flex items-center justify-center">
               <Play className="w-4 h-4 text-white" />
             </div>
             <span className="text-xl font-bold text-gray-900">SocialFlair</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
+            <Link
               href="#features"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
               Features
-            </a>
-            <a
+            </Link>
+            <Link
               href="#pricing"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
               Pricing
-            </a>
-            <a
+            </Link>
+            <Link
               href="#examples"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
               Examples
-            </a>
-            <a
+            </Link>
+            <Link
               href="#testimonials"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
               Success Stories
-            </a>
+            </Link>
+            <Link
+              href="/createvideopage"
+              className="text-gray-600 hover:text-indigo-600 transition-colors"
+            >
+              Create Videos
+            </Link>
           </div>
 
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-
             <SignedOut>
               <SignInButton forceRedirectUrl={"/"}>
                 <Link

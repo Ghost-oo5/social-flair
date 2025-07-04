@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Zap, CheckCircle } from 'lucide-react';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -30,10 +31,10 @@ const Hero = () => {
 
             {/* Hero CTA */}
             <div className="mb-10">
-              <a href="#signup" className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-lg font-semibold rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <Link href="/createvideopage" className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-lg font-semibold rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 Start Creating Videos Free
                 <Play className="w-5 h-5 ml-2" />
-              </a>
+              </Link>
               <p className="text-sm text-gray-500 mt-3 flex items-center justify-center lg:justify-start">
                 <CheckCircle className="w-4 h-4 mr-2 text-green-500" />
                 No credit card required
